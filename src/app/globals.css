@@ -13,7 +13,10 @@
     @apply w-full;
   }
   .content {
-    @apply max-w-[1400px] flex flex-col items-center;
+    @apply max-w-[1400px] flex flex-col items-center px-4 md:px-8 lg:px-12;
+  }
+  .blueButton{
+    @apply my-4 bg-[#068FFF] py-2 px-8 text-[20px] text-[#fff] rounded-lg
   }
 }
 
@@ -25,22 +28,12 @@
     @apply text-3xl lg:text-4xl xl:text-5xl font-semibold;
   }
   h3 {
-    @apply text-2xl font-bold md:text-3xl font-bold;
+    @apply text-[22px] font-bold md:text-[26px] font-bold;
   }
   big {
-    @apply text-[24px] md:text-[28px];
+    @apply text-[22px] md:text-[26px];
   }
   p {
     @apply text-[18px] md:text-[22px];
   }
 }
-
-/* .container{
-  width: 100%;
-}
-.content{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-} */

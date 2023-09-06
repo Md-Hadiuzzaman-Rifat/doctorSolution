@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     colors: {
       'customPink': '#EC53B0',
-      'customBlue': "#068FFF"
+      'customBlue': "#068FFF",
+      'lightBlue':"#f5fbff"
     },
     extend: {
       backgroundImage: {

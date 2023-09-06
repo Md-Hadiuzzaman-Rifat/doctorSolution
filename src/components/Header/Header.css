@@ -1,0 +1,5 @@
+.background{
+    background-image:linear-gradient(to left, rgba(255, 255, 255, 0.829), rgb(252, 252, 252)) , url('../../images/low_poly_banner_design_1711.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
