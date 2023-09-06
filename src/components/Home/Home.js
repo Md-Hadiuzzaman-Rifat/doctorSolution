@@ -11,8 +11,8 @@ const Home = () => {
       <div className="videoContainer">
         <div className="videoOverlay"></div>
         <div className="btn">
-          <button>Offline Appointment</button>
-          <button>Online Appointment</button>
+          <button className="blueButton mr-8">Offline Appointment</button>
+          <button className="blueButton">Online Appointment</button>
         </div>
         <video src="/images/videoGirl.mp4" autoPlay loop muted></video>
       </div>

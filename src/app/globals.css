@@ -16,8 +16,12 @@
     @apply max-w-[1400px] flex flex-col items-center px-4 md:px-8 lg:px-12;
   }
   .blueButton{
-    @apply my-4 bg-[#068FFF] py-2 px-8 text-[20px] text-[#fff] rounded-lg
+    @apply my-4 bg-[#068FFF] py-2 px-8 text-[20px] text-[#fff] rounded-md cursor-pointer
   }
+  .inputProp{
+    @apply mt-1 px-3 py-2 w-full shadow-md  focus:outline-[customPink] block w-full rounded-md sm:text-sm focus:ring-1
+  }
+
 }
 
 @layer base {
