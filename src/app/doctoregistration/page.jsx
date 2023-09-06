@@ -9,7 +9,12 @@ const page = () => {
           <div className="flex">
             {/* left side  */}
             <div>
-              <Image src="/images/hadi.png" width={400} height={600} className="ml-[-20%] h-screen w-[600px]"></Image>
+              <Image
+                src="/images/hadi.png"
+                width={400}
+                height={600}
+                className="ml-[-20%] h-screen w-[600px]"
+              ></Image>
             </div>
             {/* right side start  */}
             <div>
@@ -32,13 +37,7 @@ const page = () => {
                   type="email"
                   name="email"
                   className="inputProp"
-                  placeholder="Email"
-                />
-                <input
-                  type="email"
-                  name="email"
-                  className="inputProp"
-                  placeholder="you@example.com"
+                  placeholder="Enter Email"
                 />
                 <input
                   type="text"
@@ -50,7 +49,7 @@ const page = () => {
                   type="Password"
                   name="password"
                   className="inputProp"
-                  placeholder="you@example.com"
+                  placeholder="Enter Password"
                 />
                 <input
                   type="text"
@@ -64,7 +63,17 @@ const page = () => {
                   className="inputProp"
                   placeholder="Registration Number (BDMC)"
                 />
-                <input type="checkbox" name="I accept and angree Terms conditions and Privacy Policy"/>
+                <div>
+                  <input
+                    type="checkbox"
+                    name="I accept and angree Terms conditions and Privacy Policy"
+                  />{" "}
+                  <span>
+                    I accepted all{" "}
+                    <span className="text-customPink">Terms conditions</span> and{" "}
+                    <span className="text-customPink">Privacy Policy</span>
+                  </span>
+                </div>
               </form>
             </div>
             {/* right side end   */}
