@@ -3,6 +3,8 @@ import Header from "../Header/Header";
 import AvailableAppointment from "../AvailableAppointment/AvailableAppointment";
 import "./Home.css";
 import Subscription from "../Subscription/Subscription";
+import Features from "../Features/Features";
+import CoreObject from "../CoreObject/CoreObject";
 const Home = () => {
   return (
     <div>
@@ -17,6 +19,8 @@ const Home = () => {
         <video src="/images/videoGirl.mp4" autoPlay loop muted></video>
       </div>
       <Subscription></Subscription>
+      <Features></Features>
+      <CoreObject></CoreObject>
     </div>
   );
 };

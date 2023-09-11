@@ -1,3 +1,4 @@
+import ActionBtn from "@/components/ActionBtn/ActionBtn";
 import Image from "next/image";
 import React from "react";
 
@@ -8,16 +9,16 @@ const page = () => {
         <div className="content">
           <div className="flex">
             {/* left side  */}
-            <div>
+            <div className="hidden md:flex">
               <Image
                 src="/images/hadi.png"
                 width={400}
                 height={600}
-                className="ml-[-20%] h-screen w-[600px]"
+                className="ml-[-20%] h-full w-[600px]"
               ></Image>
             </div>
             {/* right side start  */}
-            <div>
+            <div className="my-12">
               <h2 className="text-customPink mb-12">Doctors Registration </h2>
 
               <form className="flex flex-col gap-4">
@@ -70,10 +71,11 @@ const page = () => {
                   />{" "}
                   <span>
                     I accepted all{" "}
-                    <span className="text-customPink">Terms conditions</span> and{" "}
-                    <span className="text-customPink">Privacy Policy</span>
+                    <span className="text-customPink">Terms conditions</span>{" "}
+                    and <span className="text-customPink">Privacy Policy</span>
                   </span>
                 </div>
+                <ActionBtn clr="customPink">Register</ActionBtn>
               </form>
             </div>
             {/* right side end   */}

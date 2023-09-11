@@ -11,7 +11,7 @@ const services=[
     {
         title: "Order Medical online",
         description: "you can order and buy medicine from online.",
-        img:'/blood.png'
+        img:'/fast-delivery_2203124.png'
     },
     {
         title:"Blood bank",
@@ -21,7 +21,7 @@ const services=[
     {
         title:"Health Package",
         description:"Your whole family can select family plan at a low cost.",
-        img:'/blood.png'
+        img:'/healthcare_2966327.png'
     }
 ]
 
