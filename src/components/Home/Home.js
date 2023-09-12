@@ -5,6 +5,7 @@ import "./Home.css";
 import Subscription from "../Subscription/Subscription";
 import Features from "../Features/Features";
 import CoreObject from "../CoreObject/CoreObject";
+import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const Home = () => {
       <Subscription></Subscription>
       <Features></Features>
       <CoreObject></CoreObject>
+      <Footer></Footer>
     </div>
   );
 };

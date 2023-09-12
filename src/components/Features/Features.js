@@ -64,7 +64,7 @@ const Features = () => {
       <div className="content">
         {feature.map((item) => (
           <div>
-            <Image src={item.img} width={70} height={70}></Image>
+            <Image src={item.img} width={70} height={70} alt={item.title}></Image>
             <div>
               <h3>{item.title}</h3>
               <p>{item.disc}</p>

@@ -14,7 +14,7 @@ const page = () => {
                 src="/images/hadi.png"
                 width={400}
                 height={600}
-                className="ml-[-20%] h-full w-[600px]"
+                className="ml-[-20%] h-full w-[600px]" alt="registration form"
               ></Image>
             </div>
             {/* right side start  */}

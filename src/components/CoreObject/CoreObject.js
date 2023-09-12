@@ -11,6 +11,7 @@ const CoreObject = () => {
               width={400}
               height={400}
               src="/gif/Online Doctor.gif"
+              alt="solution"
             ></Image>
           </div>
           <div>

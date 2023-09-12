@@ -45,12 +45,14 @@ const Header = () => {
             src="/images/applestore.png"
             width={200}
             height={100}
+            alt="download app on applestore"
           ></Image>
           <Image
             src="/images/playstore.png"
             className="w-[180px] h-fit cursor-pointer"
             width={200}
             height={100}
+            alt="download app on playstore"
           ></Image>
         </div>
 

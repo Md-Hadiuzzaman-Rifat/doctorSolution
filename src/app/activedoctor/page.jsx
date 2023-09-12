@@ -10,7 +10,7 @@ const page = () => {
         <div className="grid grid-rows-1 md:grid-rows-2 lg:grid-rows-3">
           {problems.map((disease) => (
             <div className="flex flex-col md:flex-row items-center">
-                <Image src={disease.image} width={100} height={100}></Image>
+                <Image src={disease.image} width={100} height={100} alt="active doctor"></Image>
               <div>
               <h3 className="text-customBlue">{disease.name}</h3>
               <p>{disease.desc}</p>

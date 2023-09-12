@@ -51,6 +51,4 @@ const Subscription = () => {
 
 export default Subscription;
 
-{
-  /* <a href="https://storyset.com/work">Work illustrations by Storyset</a> */
-}
+
